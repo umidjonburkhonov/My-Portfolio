@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&family=Oswald:wght@200&family=Roboto:wght@100;300&display=swap");
+
+:root {
+  --red: #dc3545;
+  --lg-font: "Montserrat", sans-serif;
+  --sm-font: "Oswald", sans-serif;
+  --md-font: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--md-font);
+}
+
+h1 {
+  color: #ffffff;
+}
+
+/* Navbar */
+.navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.nav-link {
+  letter-spacing: 2px;
+  font-family: var(--md-font);
+  border-bottom: 1px solid #ffffff;
+}
+
+.nav-link:hover {
+  color: var(--red) !important;
+}
+
+/* Home */
+.home {
+  padding: 150px 0 100px 0;
+}
+
+.about-me_titel-1 {
+  color: #dc3545;
+}
+
+.about-me_description {
+  color: #ffffff;
+  padding-right: 100px;
+}
+
+.btn-home {
+  width: 200px;
+}
+
+/* Skills */
+
+.progress {
+  width: 125px;
+}
+
+.img-skill-1 img {
+  width: 150px;
+  height: 130px;
+}
+
+.progress-bar {
+  background-color: var(--red) !important;
+}
+
+/* my-work */
+.my-work img {
+  width: 450px;
+  height: 280px;
+}
+
+.link-to-btn {
+  padding: 12px 30px;
+  border-radius: 25px;
+}
+
+@media (min-width: 980px) {
+  .nav-link {
+    border-bottom: none;
+  }
+}

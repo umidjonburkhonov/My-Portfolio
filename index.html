@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fontawsomecdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- BOOTSTRAPT -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrapt Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Portfolio Frontend</title>
+  </head>
+  <body class="bg-dark">
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navigation-menu d-flex bg-dark py-3"
+    >
+      <div class="container px-5 py-2">
+        <a class="navbar-brand mx-auto text-light" href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-chat-left-quote me-3"
+            viewBox="0 0 16 16"
+            color="#dc3545"
+          >
+            <path
+              d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+            />
+            <path
+              d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"
+            />
+          </svg>
+          <b>Umidjon</b>
+        </a>
+
+        <button
+          class="navbar-toggler text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto text-uppercase text-center">
+            <li class="nav-item mx-4">
+              <a href="#home" class="nav-link active" aria-current="page"
+                ><b>Home</b></a
+              >
+            </li>
+            <li class="nav-item mx-4">
+              <a href="#my-skills" class="nav-link"><b>My Skills</b></a>
+            </li>
+            <li class="nav-item mx-4">
+              <a href="#my-work" class="nav-link"><b>My work</b></a>
+            </li>
+            
+            <li class="nav-item mx-4">
+              <a href="#footer" class="nav-link border-0"><b>Contact me</b></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /Navigation -->
+
+    <!-- Home -->
+
+    <section id="home" class="home mt-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-6 py-5 order-lg-0 order-md-0">
+            <div class="row">
+              <div class="col-2">
+                <ul class="list-unstyled">
+                  <li class="social-media_icon fs-2 pt-2 pb-4">
+                    <a href="https://www.instagram.com/umidjon_burkhonov" target="_blank">
+                      <i class="fab fa-instagram text-white"></i></a>
+                  </li>
+                  <li class="social-media_icon fs-2 pt-2 pb-4">
+                    <a href="https://www.facebook.com/umedjon.burxonov" target="_blank">
+                      <i class="fab fa-facebook text-white"></i></a>
+                  </li>
+                  <li class="social-media_icon fs-2 pt-2 pb-4">
+                    <a href="https://www.linkedin.com/in/umidjon-burkhonov-35340725a" target="_blank">
+                      <i class="fab fa-linkedin text-white"></i></a>
+                  </li>
+                  <li class="social-media_icon fs-2 pt-2 pb-4">
+                    <a href="https://www.youtube.com/@umidjonburkhonov9326" target="_blank">
+                      <i class="fab fa-youtube text-white"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col">
+                <h4 class="about-me_titel-1">Hello</h4>
+                <h2 class="text-white">
+                  <span class="about-me_titel-1">I'm</span > Umidjon Burkhonov
+                </h2>
+                <h4 class="about-me_titel-1 mb-4">Frontend Developer</h4>
+                <p class="about-me_description ">
+                  Hello, my name is Umidjon Burkhonov and I am 23 years old and currently living in Germany. It's been over a year since I arrived and I came through a visa. In my country, I studied Economics-Informatics at Dangara State University. I have a Bachelor's Degree. I wanted to become a great specialist in my profession, so I want to come to Germany and organize more in my profession. 1 year ago, my language level was not enough for my profession, but now I have reached the B2 level. When I arrived, I worked in a restaurant due to a problem with my language level and improved my language level. Now I want to find a job in my profession and continue my profession.
+                </p>
+                <button class="btn btn-danger mt-5 btn-home">
+                  <i class="fas fa-envelope fs-4 me-2"></i>
+                  <a href="https://u.burkhonov99@gmail.com" class="text-decoration-none text-white" target="_blank">
+                    <span class="email-me">Email Me</span>
+                  </a>
+                </button>
+                <button class="btn btn-outline-dark mt-5 ms-5 text-white">
+                  <i class="fas fa-cloud-download fs-4 me-2"></i>
+                  Download CV
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6 order-md-1 py-5">
+            <div class="">
+              <img src="./img/home-2.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Home -->
+
+    <!-- Skills -->
+    <section class="skills py-5" id="my-skills">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-6 col-lg-4 col-xl-2 img-skill-1 mb-5">
+            <img src="./img/html.svg" class="img-fluid" alt="html" />
+            <div
+              class="progress my-5 mx-2"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="80"
+            >
+              <div class="progress-bar bg-success" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 col-lg-4 col-xl-2 img-skill-1 mb-5">
+            <img src="./img/css-33.svg" class="img-fluid" alt="css" />
+            <div
+              class="progress my-5 mx-2"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="80"
+            >
+              <div class="progress-bar bg-success" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 col-lg-4 col-xl-2 img-skill-1 mb-5">
+            <img
+              src="./img/Bootstrap_logo.svg.png"
+              class="img-fluid"
+              alt="Bootstrapt"
+            />
+            <div
+              class="progress my-5 mx-2"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="80"
+            >
+              <div class="progress-bar bg-success" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 col-lg-4 col-xl-2 img-skill-1 mb-5">
+            <img src="./img/js3.png" class="img-fluid" alt="js" />
+            <div
+              class="progress my-5 mx-2"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="80"
+            >
+              <div class="progress-bar bg-success" style="width: 70%"></div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 col-lg-4 col-xl-2 img-skill-1 mb-5">
+            <img src="./img/React.svg.png" class="img-fluid" alt="React" />
+            <div
+              class="progress my-5 mx-2"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="80"
+            >
+              <div class="progress-bar" style="width: 60%"></div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 col-lg-4 col-xl-2 img-skill-1 mb-5">
+            <img src="./img/Typescript_logo_2020.svg.png" class="img-fluid" alt="css" />
+            <div
+              class="progress my-5 mx-2"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="80"
+            >
+              <div class="progress-bar bg-success" style="width: 45%"></div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 col-lg-4 col-xl-2 img-skill-1 mb-5">
+            <img src="./img/github.png" class="img-fluid" alt="css" />
+            <div
+              class="progress my-5 mx-2"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="80"
+            >
+              <div class="progress-bar bg-success" style="width: 50%"></div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 col-lg-4 col-xl-2 img-skill-1 mb-5">
+            <img src="./img/responsive-webdesign-vorteile.jpg" class="img-fluid" alt="css" />
+            <div
+              class="progress my-5 mx-2"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="80"
+            >
+              <div class="progress-bar bg-success" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /Skills -->
+
+    <!-- my work -->
+    <section id="my-work" class="my-work mt-3 mb-5">
+      <div class="container">
+        <h1 class="mb-2 text-center text-uppercase">My Work</h1>
+        <div class="col-6 mx-auto mb-5">
+          <p class="text-light text-center">
+            Here are the projects I've done so far. and I continue to do projects
+          </p>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-4 card bg-transparent border-0 my-work">
+            <img src="./img/my-work-1.png" class="img-fluid" alt="..." />
+            <div class="card-body px-0">
+              <h4 class="card-title text-white mb-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem
+                ipsum, dolor sit .
+              </h4>
+              <p class="card-text text-white text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                nemo exercitationem adipisci modi aperiam laboriosam
+                reprehenderit eveniet quasi quas hic, necessitatibus
+                consequuntur obcaecati, autem cupiditate eum voluptas est. Dicta
+                laboriosam a cupiditate, similique modi eius deleniti quos
+                numquam saepe eum corporis impedit, ea nihil sapiente!
+              </p>
+              <a
+                href="https://muster-project2.netlify.app" target="_blank"
+                class="btn btn-outline-danger link-to-btn text-uppercase col-6 d-grid mx-auto mt-4 text-white"
+                >See my work</a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 card bg-transparent border-0 my-work">
+            <img src="./img/my-work-3.png" class="img-fluid" alt="..." />
+            <div class="card-body px-0">
+              <h4 class="card-title text-white mb-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem
+                ipsum, dolor si
+              </h4>
+              <p class="card-text text-white text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                nemo exercitationem adipisci modi aperiam laboriosam
+                reprehenderit eveniet quasi quas hic, necessitatibus
+                consequuntur obcaecati, autem cupiditate eum voluptas est. Dicta
+                laboriosam a cupiditate, similique modi eius deleniti quos
+                numquam saepe eum corporis impedit, ea nihil sapiente!
+              </p>
+              <a
+                href="https://muster-portfolio.netlify.app" target="_blank"
+                class="btn btn-outline-danger link-to-btn text-uppercase col-6 d-grid mx-auto mt-4 text-white"
+                >See my work</a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 card bg-transparent border-0 my-work">
+            <img src="./img/my-work-5.png" class="img-fluid" alt="..." />
+            <div class="card-body px-0">
+              <h4 class="card-title text-white mb-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem
+                ipsum, dolor sit 
+              </h4>
+              <p class="card-text text-white text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                nemo exercitationem adipisci modi aperiam laboriosam
+                reprehenderit eveniet quasi quas hic, necessitatibus
+                consequuntur obcaecati, autem cupiditate eum voluptas est. Dicta
+                laboriosam a cupiditate, similique modi eius deleniti quos
+                numquam saepe eum corporis impedit, ea nihil sapiente!
+              </p>
+              <a
+                href="https://muster-ecommerce-project.netlify.app" target="_blank"
+                class="btn btn-outline-danger link-to-btn text-uppercase col-6 d-grid mx-auto mt-4 text-white"
+                >See my work</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /my work -->
+
+    
+    <!-- footer -->
+    <footer class="bg-black py-5" id="footer">
+      <div class="conatiner">
+        <div class="row text-white g-4 mx-5">
+          <div class="col-md-6 col-lg-3">
+            <a
+              href="./index.html"
+              class="text-decoration-none text-white text-uppercase mb-3 "
+            >
+              Muster
+            </a>
+            <p class="mt-3 ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              dolorem excepturi, sed culpa minima impedit dolorum et a eaque
+              doloribus?
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class=" mb-4">Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3"> 
+                <a href="home" class="text-white text-decoration-none"> 
+                <i class="fas fa-chevron-right me-2"></i> Home
+              </a>
+            </li>
+              <li class="mb-3">
+                <a href="#my-skills" class="text-white text-decoration-none"> 
+                  <i class="fas fa-chevron-right me-2"></i> My Skills
+                </a>
+              </li >
+              <li class="mb-3">
+                <a href="#my-work" class="text-white text-decoration-none"> 
+                  <i class="fas fa-chevron-right me-2"></i> My Work
+                </a>
+              </li>
+              
+            </ul>
+           
+           
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h5 class="mb-4"> Contact</h5>
+            <div class="mb-3">
+              <span class="me-2">
+                <i class="fas fa-map-marked-alt" ></i>
+              </span>
+              <span>Walter-Richter-Straße 17, 01796 Pirna, Deutschland</span>
+            </div>
+            <div class="mb-3">
+              <span class="me-2">
+                <i class="fas fa-envelope" ></i>
+              </span>
+              <span>u.burkhonov99@gmail.com</span>
+            </div>
+            <div class="mb-3">
+              <span class="me-2">
+                <i class="fas fa-phone-alt" ></i>
+              </span>
+              <span>+49 157 519 175 43</span>
+            </div>
+           </div>
+         
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
